@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Este es un titulo
+#### Este es un titulo secundario
+### Este es un titulo terciario
+
+Es suficiente escribir asì. 
+
+
+```{r Grafico1, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+library(tidyverse)
+
+df <- readxl::read_excel("data/fishing_effort.xlsx")
+
+ggplot(df, aes(x=Population, y=PFE))+
+        geom_point()
+
+```
