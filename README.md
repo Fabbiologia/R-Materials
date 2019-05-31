@@ -7,6 +7,11 @@ output:
     df_print: paged
 ---
 
+This is the course material from an R-class @UABCS 
+Much of the materials are from other sources, so please cite appropriately when and if reusing. 
+
+
+
 ![Course scheme](figs/rdiag.png)
 
 # Day 1
